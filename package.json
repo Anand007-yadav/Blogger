@@ -15,7 +15,7 @@
     "engines": {
         "node": "12.x"
     },
-    "author": "Rajat M",
+    "author": "Anand",
     "license": "ISC",
     "dependencies": {
         "axios": "^0.21.1",
