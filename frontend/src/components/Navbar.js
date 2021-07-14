@@ -36,8 +36,8 @@ class Navbar extends Component {
         return (
             <nav className="navbar navbar-custom navbar-expand-lg">
                 <Link to="/" className="navbar-brand">
-                    <i className="fas fa-pen-alt" /> Blog
-                    <span className="full-stop">.</span>It
+                    <i className="fas fa-pen-alt" /> Blogger
+                    
                 </Link>
                 <button
                     className="navbar-toggler"

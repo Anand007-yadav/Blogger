@@ -106,10 +106,10 @@ class Login extends React.Component {
             <div className="container">
                 <div className="login">
                     <h5>
-                        Login with your social account
-                        <span className="full-stop">.</span>
+                        SignIn
+                       
                     </h5>
-                    <hr className="gold-hr" />
+                    {/* <hr className="gold-hr" /> */}
                     <div className="google">
                         <GoogleLogin
                             clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}
@@ -121,19 +121,7 @@ class Login extends React.Component {
                         />
                     </div>
                     <br />
-                    <div className="twitter">
-                        <TwitterLogin
-                            authCallback={this.twitterAuthHandler}
-                            consumerKey={
-                                process.env.REACT_APP_TWITTER_CONSUMER_ID
-                            }
-                            consumerSecret={
-                                process.env.REACT_APP_TWITTER_CONSUMER_SECRET
-                            }
-                            callbackUrl="https://mern-blog-it.herokuapp.com/login"
-                            buttonTheme="light"
-                        />
-                    </div>
+                    
                 </div>
             </div>
         );

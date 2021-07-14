@@ -71,7 +71,7 @@ body {
     position: fixed;
     height: 3.2em;
     z-index: 2;
-    background-color: #07a0ff;
+    background-color: #deebf3;
     -webkit-box-shadow: 7px 7px 5px -2px rgba(52, 162, 179, 1);
     -moz-box-shadow: 7px 7px 5px -2px rgba(52, 162, 179, 1);
     box-shadow: 7px 7px 5px -2px rgba(52, 162, 179, 1);
@@ -81,25 +81,25 @@ body {
 }
 
 .navbar-custom .navbar-brand {
-    color: rgb(255, 251, 0);
+    color: rgb(13, 11, 156);
 }
 
 .navbar-custom .navbar-brand:hover {
-    color: white;
+    color: rgb(46, 37, 37);
 }
 
 .navbar-item .nav-link {
-    color: white;
+    color: rgb(27, 26, 26);
     padding: 0.5em;
     margin: 0;
-    border: 0.1em solid #07a0ff;
+    /* border: 0.1em solid #07a0ff; */
 }
 
 .navbar-item .nav-link:hover {
-    color: rgb(255, 251, 0);
+    color: rgb(142, 19, 158);
     border-radius: 0.4em;
-    background: #114c70;
-    border: 0.1em solid white;
+    /* background: #114c70; */
+    /* border: 0.1em solid white; */
 }
 
 .navbar-custom span .fa-bars {
@@ -127,15 +127,15 @@ body {
     font-size: larger;
     max-width: 400px;
     text-align: center;
-    background: #07a0ff;
-    color: white;
+    background: #c9d0d4;
+    color: rgb(145, 66, 219);
     padding: 1em;
     margin: 0 auto;
     border-radius: 0.4em;
     z-index: 2;
-    -webkit-box-shadow: 3px 4px 5px -1px rgba(0, 81, 186, 1);
-    -moz-box-shadow: 3px 4px 5px -1px rgba(0, 81, 186, 1);
-    box-shadow: 3px 4px 5px -1px rgba(0, 81, 186, 1);
+    -webkit-box-shadow: 3px 4px 5px -1px rgb(204, 207, 211);
+    -moz-box-shadow: 3px 4px 5px -1px rgb(194, 195, 197);
+    box-shadow: 3px 4px 5px -1px rgb(78, 80, 82);
 }
 
 /* About component */

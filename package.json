@@ -9,7 +9,8 @@
         "install-client": "cd frontend && npm install",
         "heroku-postbuild": "npm run install-client && npm run build",
         "start": "node backend/server.js",
-        "frontend": "cd frontend && npm start"
+        "frontend": "cd frontend && npm start",
+        "dev": "nodemon backend/server.js"
     },
     "engines": {
         "node": "12.x"
@@ -21,7 +22,7 @@
         "cors": "^2.8.5",
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
-        "mongoose": "^5.9.5",
+        "mongoose": "^5.13.2",
         "react-confirm-alert": "^2.6.1",
         "react-google-login": "^5.1.2",
         "react-router-dom": "^5.1.2",

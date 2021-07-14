@@ -13,7 +13,8 @@ app.use(cors());
 const PORT = process.env.PORT || 5000;
 
 //config MongoDB
-const uri = process.env.MONGO_URI;
+const uri ='mongodb+srv://Anand001:Anand@001@cluster0.3q2vk.mongodb.net/BlogApp?retryWrites=true&w=majority';
+console.log(uri);
 mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
